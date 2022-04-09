@@ -11,7 +11,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: javacola.co.id
+          server: ftp.javacola.co.id
           username: afif@javacola.co.id
           password: Bumiasri123
           server-dir: /public_html/main-web/
