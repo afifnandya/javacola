@@ -1,0 +1,17 @@
+on: push
+name: 🚀 Deploy javacola website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: javacola.co.id
+          username: afif@javacola.co.id
+          password: Bumiasri123
+          server-dir: /public_html/main-web
