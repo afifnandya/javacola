@@ -14,4 +14,4 @@ jobs:
           server: ftp.javacola.co.id
           username: afif@javacola.co.id
           password: Bumiasri123
-          server-dir: /home/javacolabase/public_html/main-web/
+          server-dir: /public_html/main-web/
